@@ -1,0 +1,189 @@
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 15px 94px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: greenyellow;
+  padding: 15px 94px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: cyan;
+  color: black;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(30,30,30);
+  min-width: 272px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: red;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+  z-index: 99;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: cyan;
+  color: black;
+}
+
+.anchor a:hover{
+  color:red;
+}
+
+.anchor a:active{
+  color:white;
+}
+
+.anchor a{
+  text-decoration: none;
+  color:cyan;
+}
+
+.awesome{
+  background-color: rgb(30,30,30);
+  padding-top:5px;
+  font-weight: bold;
+  font-size:30px;
+  -webkit-animation: colorchange 0.7s infinite alternate;
+}
+
+@-webkit-keyframes colorchange{
+  0%{
+      color: red;
+  }
+
+  50%{
+    color: cyan;
+} 
+
+  100%{
+      color: white;
+  }
+}
+
+
+/* ----- CONTACT US ----- */
+
+.contact-us{
+  background-color: grey;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-left: 25%;
+  margin-top: 40px;
+  width: 50%;
+  margin-right: 25%;
+
+  
+}
+
+label {
+  font-family: cursive;
+  font-size: 25px; 
+  color: cyan;
+}
+
+input {
+  margin-bottom: 10px;   
+  height: 30px; 
+  width: 350px;
+  float: right;
+  margin-right: 100px;
+  border-radius: 5px;
+
+}
+
+textarea {
+  margin-bottom: 10px;   
+  height: 80px; 
+  width: 350px;
+  float: right;
+  margin-right: 100px;
+  border-radius: 5px;
+}
+
+
+.btn-submit-form {
+  margin-top: 30px;
+  margin-left: 290px;
+  padding: 15px 25px;
+  background-color:cyan;
+  border: 0px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.btn-submit-form:hover,
+.btn-submit-form:active {
+  background-color: red;
+}
+
+.error {
+  color: black;
+}
